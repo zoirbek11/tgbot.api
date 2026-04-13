@@ -1,0 +1,31 @@
+# Bog'liqliklar (Dependencies)
+node_modules/
+jspm_packages/
+
+# Maxfiy ma'lumotlar (Environment variables)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log fayllar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Operatsion tizim fayllari
+.DS_Store
+Thumbs.db
+
+# Build natijalari (agar Next.js yoki TypeScript ishlatsangiz)
+dist/
+build/
+.next/
+out/
+
+# IDE sozlamalari
+.vscode/
+.idea/
